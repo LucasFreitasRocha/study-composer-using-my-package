@@ -1,0 +1,22 @@
+{
+    "name": "lucasfreitasrocha/teste-pacote-composer",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Lucasfreitasrocha\\TestePacoteComposer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Lucas Freitas da Rocha",
+            "email": "rochadefreitaslucas@gmail.com"
+        }
+    ],
+    "require": {
+        "lucasfreitasrocha/buscador-cursos": "^1.0"
+    },
+    "scripts": {
+        "start": "php ./src/index.php",
+        "buscar-cursos": "teste-buscar-cursos"
+    }
+}
